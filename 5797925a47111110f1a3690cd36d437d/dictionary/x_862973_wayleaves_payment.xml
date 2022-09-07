@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Payment" max_length="40" name="x_862973_wayleaves_payment" sizeclass="2" text_index="true" type="collection">
+        <element label="Account Number" max_length="500" name="account_number" type="string"/>
+        <element label="IFSC code" max_length="500" name="ifsc_code" type="string"/>
+        <element label="Paymant Status" max_length="500" name="paymant_status" type="string"/>
+        <element label="Payment Bank" max_length="500" name="payment_bank" type="string"/>
+        <element label="Transaction Id" max_length="500" name="transaction_id" type="string"/>
+    </element>
+</database>

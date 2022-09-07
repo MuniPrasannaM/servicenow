@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wayleaves" max_length="40" name="x_862973_wayleaves_wayleaves" sizeclass="12" text_index="true" type="collection">
+        <element label="Approver Id" max_length="32" name="approver_id" reference="x_862973_wayleaves_company_details" type="reference"/>
+        <element label="Document Id" max_length="32" name="document_id" reference="x_862973_wayleaves_documents" type="reference"/>
+        <element label="Grantor Id" max_length="32" name="grantor_id" reference="x_862973_wayleaves_grantor" type="reference"/>
+        <element default="False" label="KCI Update" max_length="40" name="kci_update" type="boolean"/>
+        <element label="Payment Id" max_length="32" name="payment_id" reference="x_862973_wayleaves_payment" type="reference"/>
+        <element default="False" label="Permission By Approver" max_length="40" name="permission_by_approver" type="boolean"/>
+        <element default="False" label="Permission By Grantor" max_length="40" name="permission_by_grantor" type="boolean"/>
+        <element default="False" label="Permission By Manager" max_length="40" name="permission_by_manager" type="boolean"/>
+        <element choice="3" label="Status" max_length="400" name="status" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Initiated" value="init"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+            </choice>
+        </element>
+        <element label="Wayleaves Id" max_length="400" name="wayleaves_id" type="string"/>
+        <index name="index">
+            <element name="grantor_id"/>
+        </index>
+        <index name="index2">
+            <element name="approver_id"/>
+        </index>
+        <index name="index3">
+            <element name="payment_id"/>
+        </index>
+        <index name="index4">
+            <element name="document_id"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 12:02:57</sys_created_on>
+        <sys_id>c37d6fa847651110f1a3690cd36d43a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.862973.wayleaves.*.x_862973_wayleaves.documents_user</sys_name>
+        <sys_package display_value="WayLeaveSimple" source="x_862973_wayleaves">5797925a47111110f1a3690cd36d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WayLeaveSimple">5797925a47111110f1a3690cd36d437d</sys_scope>
+        <sys_security_acl display_value="x.862973.wayleaves.*">827d2fa83f651110cea5ab0444904be6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c37d6fa847651110f1a3690cd36d43a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 12:02:57</sys_updated_on>
+        <sys_user_role display_value="x_862973_wayleaves.documents_user" name="x_862973_wayleaves.documents_user">e9033ed247911110f1a3690cd36d4327</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

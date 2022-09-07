@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="permission_by_grantor" label="Permission By Grantor" language="en" table="x_862973_wayleaves_wayleaves">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>permission_by_grantor</element>
+            <help/>
+            <hint/>
+            <label>Permission By Grantor</label>
+            <language>en</language>
+            <name>x_862973_wayleaves_wayleaves</name>
+            <plural>Permission By Grantors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-16 08:12:51</sys_created_on>
+            <sys_id>d4b5b2d647911110f1a3690cd36d4313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Permission By Grantor</sys_name>
+            <sys_package display_value="WayLeaveSimple" source="x_862973_wayleaves">5797925a47111110f1a3690cd36d437d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="WayLeaveSimple">5797925a47111110f1a3690cd36d437d</sys_scope>
+            <sys_update_name>sys_documentation_x_862973_wayleaves_wayleaves_permission_by_grantor_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-16 08:12:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

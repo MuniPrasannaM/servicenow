@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Company Details" max_length="40" name="x_862973_wayleaves_company_details" sizeclass="3" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Approver Id" max_length="40" name="approver_id" type="string"/>
+        <element label="email" max_length="60" name="email" type="string"/>
+        <element label="Name" max_length="50" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" max_length="20" name="phone_number" type="string"/>
+        <element choice="3" label="Role" max_length="50" name="role" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Approver" value="approver"/>
+                <element inactive_on_update="false" label="Initiator" value="initiator"/>
+                <element inactive_on_update="false" label="Manager" value="manager"/>
+                <element inactive_on_update="false" label="Manager" value="manager"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Username" max_length="40" name="username" type="string"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Documents" max_length="40" name="x_862973_wayleaves_documents" sizeclass="1" text_index="true" type="collection">
+        <element label="document" max_length="40" name="document" type="file_attachment"/>
+        <element default="False" label="Review" max_length="40" name="review" type="boolean"/>
+    </element>
+</database>

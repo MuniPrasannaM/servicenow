@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Main Configuration</description>
+        <name>chrome_main</name>
+        <page display_value="">467d2fa876651110896630e794f682e6</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 12:02:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>427d2fa82d6511101371cc6c979c01e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="WayLeaveSimple" source="x_862973_wayleaves">5797925a47111110f1a3690cd36d437d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WayLeaveSimple">5797925a47111110f1a3690cd36d437d</sys_scope>
+        <sys_update_name>sys_ux_page_property_427d2fa82d6511101371cc6c979c01e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 12:02:54</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_862973_wayleaves.467d2fa876651110896630e794f682e6.root.chrome_main</unique_name>
+        <value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="WayLeaveSimple">5797925a47111110f1a3690cd36d437d</application>
+        <file_path/>
+        <instance_id>a7b8e4f8db24bb003050ac44d4961972</instance_id>
+        <instance_name>dev77792</instance_name>
+        <name>sys_ux_page_property_427d2fa82d6511101371cc6c979c01e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Main Configuration</description><name>chrome_main</name><page display_value="">467d2fa876651110896630e794f682e6</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-23 12:02:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>427d2fa82d6511101371cc6c979c01e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_main</sys_name><sys_package display_value="WayLeaveSimple" source="x_862973_wayleaves">5797925a47111110f1a3690cd36d437d</sys_package><sys_policy/><sys_scope display_value="WayLeaveSimple">5797925a47111110f1a3690cd36d437d</sys_scope><sys_update_name>sys_ux_page_property_427d2fa82d6511101371cc6c979c01e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-23 12:02:54</sys_updated_on><type>json</type><unique_name>x_862973_wayleaves.467d2fa876651110896630e794f682e6.root.chrome_main</unique_name><value>{&#13;
+  "maxCachedPageCount": 5,&#13;
+  "maxActivePageCount": 3,&#13;
+  "timeLeftWarning": 15&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-59799636</payload_hash>
+        <record_name>chrome_main</record_name>
+        <reverted_from/>
+        <source>35c3b0e347301110f1a3690cd36d43fc</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-07-25 23:26:16</sys_created_on>
+        <sys_id>4ff6ff6447a51110f1a3690cd36d431f</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18237aec1c00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>0ff6ff641da5111050bed5865056d71f</update_guid>
+        <update_guid_history>0ff6ff641da5111050bed5865056d71f:-59799636</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-23 12:44:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>bc83b989910840449f16aee98a04d2a4</sys_id>
+        <sys_metadata>427d2fa82d6511101371cc6c979c01e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_main</sys_name>
+        <sys_package display_value="WayLeaveSimple" source="x_862973_wayleaves">5797925a47111110f1a3690cd36d437d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="WayLeaveSimple">5797925a47111110f1a3690cd36d437d</sys_scope>
+        <sys_scope_delete display_value="">a735b285757643d8aeb5b50596f11084</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_427d2fa82d6511101371cc6c979c01e4</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_427d2fa82d6511101371cc6c979c01e4">4ff6ff6447a51110f1a3690cd36d431f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-23 12:44:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
